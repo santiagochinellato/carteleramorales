@@ -1,0 +1,132 @@
+{
+    "background":"https://i.ibb.co/19ZzCxY/Fondo-Morales-1.jpg",
+    "Logo":"https://i.ibb.co/2yMd9Tf/isologo-CEMM-1.png",
+    "direccon":"Morales 645 1° Piso",
+    "telefonos":"Tél: +54 294 4890837 / 154235666",
+    "mail":"turnos@consultoriosmorales.com.ar",
+    "logoProf":"https://i.ibb.co/zmCXXZ1/LOGO-BLANCO-SOLO.png",
+    "logoNom":"https://i.ibb.co/25S2wS3/parte-logo.png",
+    "QrCode":"https://i.ibb.co/25S2wS3/parte-logo.png",
+      "Cardiología": {
+        "name": "Cardiología",
+        "profesionales": [
+          {
+            "nombre": "Romero Villafañe, Marina",
+            "genero": "F"
+          }
+        ]
+      },
+      "Cirugía General": {
+        "name": "Cirugía General",
+        "profesionales": [
+          {
+            "nombre": "Alvarez, Ariel",
+            "genero": "M"
+          }
+        ]
+      },
+      "Clínica Médica": {
+        "name": "Clínica Médica",
+        "profesionales": [
+          {
+            "nombre": "Carbello, Mirta",
+            "genero": "F"
+          },
+          {
+            "nombre": "Loza, Pablo",
+            "genero": "M"
+          },
+          {
+            "nombre": "Torres, Guido",
+            "genero": "M"
+          }
+        ]
+      },
+      "Diabetes": {
+        "name": "Diabetes",
+        "profesionales": [
+          {
+            "nombre": "López Rivera, Arturo",
+            "genero": "M"
+          }
+        ]
+      },
+      "Endocrinología": {
+        "name": "Endocrinología",
+        "profesionales": [
+          {
+            "nombre": "Del Río, Valeria",
+            "genero": "F"
+          },
+          { "nombre": "Donoso, Marina",
+          "genero": "F"},
+          {
+            "nombre": "Mac Dermott, Maggie",
+            "genero": "F"
+          },
+          {
+            "nombre": "Nofal, Teresa",
+            "genero": "F"
+          }
+        ]
+      },
+      "Flebología": {
+        "name": "Flebología",
+        "profesionales": [
+          {
+            "nombre": "Nasif, Moisés",
+            "genero": "M"
+          }
+        ]
+      },
+      "Ginecología y Obstetricia": {
+        "name": "Ginecología y Obstetricia",
+        "profesionales": [
+          {
+            "nombre": "Romairone, Jorge",
+            "genero": "M"
+          },
+          {
+            "nombre": "Vega, Susana",
+            "genero": "F"
+          }
+        ]
+      },
+      "Hematología": {
+        "name": "Hematología",
+        "profesionales": [
+          {
+            "nombre": "Castello, María Celia",
+            "genero": "F"
+          }
+        ]
+      },
+      "Neurología": {
+        "name": "Neurología",
+        "profesionales": [
+          {
+            "nombre": "Lindenbaum, Sergio",
+            "genero": "M"
+          }
+        ]
+      },
+      "Nutrición": {
+        "name": "Nutrición",
+        "profesionales": [
+          {
+            "nombre": "Muñoz, Tania",
+            "genero": "F"
+          }
+        ]
+      },
+      "Reumatología": {
+        "name": "Reumatología",
+        "profesionales": [
+          {
+            "nombre": "Kirmayr, Karin",
+            "genero": "F"
+          }
+        ]
+      }
+    }
+    

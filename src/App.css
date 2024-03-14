@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+/* Reset general */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  max-width: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./Fondo.jpg");
+background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Estilos para el contenedor principal */
+.container {
+  width: 90%;
   display: flex;
   flex-direction: column;
+  margin: .5%;
+  gap: 1vh;
+}
+
+/* Estilos para el logo */
+.logo {
+  width: 25vw;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el contenedor de texto */
+.textContainer {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: #00929C;
+  width: 100%;
+}
+
+.textContainer div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* Estilos para la información de contacto */
+.textContainer p {
+  margin-bottom: 10px;
+}
+
+/* Estilos para el contenedor de profesionales */
+.containerProfesionales {
+display: flex;
+flex-direction: column;
+max-height: 90vh;
+width: 100%;
+flex-wrap: wrap;
+-moz-column-gap:8px;
+gap:8px;
+-moz-column-gap: 8px;
+     column-gap: 1.5vh
+}
+
+.containerCard {
+  width: calc(97% / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.containerCard > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #00B5BD;
   color: white;
+  height:6.5vh;
+  box-shadow: 1px 5px 6px 1px rgba(91,82,82,0.21);
+
+
+h2{
+  margin-left:1vh;
+}
+}
+/* Estilos para el título de la especialidad */
+.containerProfesionales h2 {
+  font-size: 2.7vh;
+  margin-left: 8px;
+}
+.containerProfesionales img {
+  width: 3vh;
+  height: auto;
+margin-right: 1vh;
+}
+/* Estilos para la lista de profesionales */
+.containerProfesionales ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilos para cada elemento de la lista de profesionales */
+.containerProfesionales li {
+height:6.5vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 5px 6px 1px rgba(91,82,82,0.21);
+
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estilos para los nombres de los profesionales */
+.containerProfesionales li p {
+  margin-left: 1vh;
+  font-size: 2.5vh;
+}
+
+.containerProfesionales li img {
+  width: 3vh;
+  height: auto;
 }
