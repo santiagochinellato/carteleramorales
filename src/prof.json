@@ -23,18 +23,22 @@
             "nombre": "Alvarez, Ariel",
             "genero": "M"
           },
-             {
-            "nombre": "Ruiz, Florencia Natasha",
-            "genero": "F"
-          }
+                      {
+            "nombre": "Olguin, Santiago",
+            "genero": "M"
+          },
         ]
       },
       "Clínica Médica": {
         "name": "Clínica Médica",
         "profesionales": [
-          {
-            "nombre": "Carbello, Mirta",
+                      {
+            "nombre": "Bereau, Valeria",
             "genero": "F"
+          },
+                      {
+            "nombre": "Chiocconi , Luis",
+            "genero": "M"
           },
           {
             "nombre": "Loza, Pablo",
@@ -43,7 +47,7 @@
           {
             "nombre": "Torres, Guido",
             "genero": "M"
-          }
+          },
         ]
       },
       "Diabetes": {
@@ -74,12 +78,12 @@
           }
         ]
       },
-      "Flebología": {
-        "name": "Flebología",
+          "Gastroenterología": {
+        "name": "Hematología",
         "profesionales": [
           {
-            "nombre": "Nasif, Moisés",
-            "genero": "M"
+            "nombre": "Gonzalez, Daniela",
+            "genero": "F"
           }
         ]
       },
@@ -120,17 +124,21 @@
           {
             "nombre": "Muñoz, Tania",
             "genero": "F"
-          }
-        ]
-      },
-      "Reumatología": {
-        "name": "Reumatología",
-        "profesionales": [
-          {
-            "nombre": "Kirmayr, Karin",
+          },
+                  {
+            "nombre": "Gil, María Alejandra",
             "genero": "F"
           }
         ]
-      }
+      },
+      "Neurología": {
+        "name": "Psicología",
+        "profesionales": [
+          {
+            "nombre": "Aladino, Cecilia",
+            "genero": "f"
+          }
+        ]
+      },
     }
     
