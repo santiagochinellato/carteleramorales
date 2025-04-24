@@ -53,6 +53,10 @@
   "Diabetes": {
     "name": "Diabetes",
     "profesionales": [
+        {
+        "nombre": "Carulla, Diego",
+        "genero": "M"
+      },
       {
         "nombre": "López Rivera, Arturo",
         "genero": "M"
